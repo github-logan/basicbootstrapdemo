@@ -1,0 +1,175 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Big Heading */
+.big-heading {
+  font-size: 3.25rem;
+  color: #fff;
+}
+
+/* Sections */
+.section-heading {
+  font-size: 2.25rem;
+}
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/* Title Section */
+.img-positioning {
+  position: relative; /* this was needed to make the container that
+  holds the image allow the positioning and size stuff to work vav z-index */
+}
+
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+#title .container-fluid {
+  padding: 3% 15%;
+  text-align: left;
+}
+
+/* Download Buttons */
+.dl-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Features */
+#features {
+  position: relative;
+}
+
+.ftr-ico {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.ftr-box {
+  padding: 3%;
+}
+
+.ftr-ico:hover {
+  color: #ff4c68;
+}
+
+.ftr-heading {
+  font-size: 1.5rem;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testm-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 1.25rem;
+}
+
+.testimonial-text {
+  font-size: 2.25rem;
+}
+
+/* Press */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 1.25rem 1.25rem 3.125rem 1.25rem;
+}
+
+/* Pricing */
+#pricing {
+  padding: 6.25rem;
+}
+
+.pricing-colm {
+  padding: 3% 2%;
+}
+
+.price-txt-heading {
+  font-size: 2.25rem;
+}
+
+.card-heading {
+  font-size: 1.5rem;
+}
+
+/* Footer */
+#footer {
+  margin-bottom: 0;
+}
+
+.social-icons {
+  color: #000;
+  padding: 2%;
+  margin-bottom: 1rem;
+}
+
+.footer-p {
+  color: #353238;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 1028px) {
+  #title .container-fluid {
+    text-align: center;
+  }
+
+  .title-img {
+    transform: rotate(0);
+    position: static;
+  }
+}
